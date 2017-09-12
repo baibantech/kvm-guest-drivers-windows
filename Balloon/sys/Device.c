@@ -822,7 +822,7 @@ BalloonRoutine(
 
 		if ((i++ % 20) == 0)
 		{
-			TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "Balloon look aside %ld MB\n", devCtx->num_pages * 4 / 1024);
+			TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "Balloon look aside pool %ld MB\n", devCtx->num_pages * 4 / 1024);
 		}
 
     }
